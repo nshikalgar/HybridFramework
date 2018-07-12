@@ -1,0 +1,17 @@
+{
+  "D:\\DevTellyProject\\TellyBest\\src": {
+    "location": "D:\\DevTellyProject\\TellyBest\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\DevTellyProject\\TellyBest\\src\u0027. Skipped."
+  },
+  "D:\\SeleniumSetUpFiles\\selenium jars 2.53\\selenium-java-2.53.0\\selenium-2.53.0\\selenium-java-2.53.0.jar": {
+    "location": "D:\\SeleniumSetUpFiles\\selenium jars 2.53\\selenium-java-2.53.0\\selenium-2.53.0\\selenium-java-2.53.0.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027D:\\SeleniumSetUpFiles\\selenium jars 2.53\\selenium-java-2.53.0\\selenium-2.53.0\\selenium-java-2.53.0.jar\u0027. Neither fingerprint \u0027fe4d41506ab85379dc816eacc25ead4c561739a4\u0027 nor symbolic name \u0027selenium-java-2.53.0\u0027 are known."
+  },
+  "D:\\SeleniumSetUpFiles\\Apache POI Latest\\poi-bin-3.17-20170915\\poi-3.17\\poi-ooxml-3.17.jar": {
+    "location": "D:\\SeleniumSetUpFiles\\Apache POI Latest\\poi-bin-3.17-20170915\\poi-3.17\\poi-ooxml-3.17.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027D:\\SeleniumSetUpFiles\\Apache POI Latest\\poi-bin-3.17-20170915\\poi-3.17\\poi-ooxml-3.17.jar\u0027. Neither fingerprint \u002707d8c44407178b73246462842bf1e206e99c8e0a\u0027 nor symbolic name \u0027poi-ooxml-3.17\u0027 are known."
+  }
+}

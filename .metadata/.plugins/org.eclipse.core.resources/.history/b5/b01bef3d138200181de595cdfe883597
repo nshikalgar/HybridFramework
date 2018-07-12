@@ -1,0 +1,19 @@
+package appModule;
+import org.openqa.selenium.*;
+
+import pageObjects.LoginPage;
+
+
+public class SingIn_Action 
+{
+    public static void Execute(WebDriver driver)
+    {
+    	 LoginPage.UserName(driver).sendKeys("sadmin");
+	     LoginPage.Password(driver).sendKeys("mm@dmin11");
+	     LoginPage.SelectRole(driver).click();
+	     LoginPage.OptionSuperAdmin(driver).click();
+	     LoginPage.CheckboxRememberMe(driver).click();
+	     LoginPage.ButtonLogin(driver).click();
+	 
+    }
+}

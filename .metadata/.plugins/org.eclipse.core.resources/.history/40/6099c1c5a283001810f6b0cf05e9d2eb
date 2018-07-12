@@ -1,0 +1,14 @@
+package Utility;
+
+public class Constant 
+{
+		 
+	       public static final String URL = "https://www.tellyphase1.rrfreelancer.com/newadmin/";
+	 
+	       public static final String Username = "sadmin";
+	 
+	       public static final String Password = "mm@dmin11";
+	 
+	
+
+}

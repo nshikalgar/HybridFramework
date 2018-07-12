@@ -1,0 +1,27 @@
+package AutomationFramework;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import appModule.SingIn_Action;
+import Utility.Constant;
+
+public class Global_Var_TC 
+{
+	public static void main(String[] args)
+	{
+	FirefoxDriver  driver = new FirefoxDriver();
+
+	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+    driver.get("https://www.tellyphase1.rrfreelancer.com/newadmin/");
+
+    // Use page Object library now
+
+    SingIn_Action.Execute(driver,Constant.Username,Constant.Password);	
+    System.out.println(" Login Successfully");
+    driver.quit();
+    }
+
+}

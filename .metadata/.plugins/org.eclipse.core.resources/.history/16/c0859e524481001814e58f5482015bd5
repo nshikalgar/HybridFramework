@@ -1,0 +1,40 @@
+package AutomationFramework;
+import org.openqa.selenium.support.ui.Select;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.*;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+import pageObjects.LoginPage;
+
+
+public class POM_TC 
+{
+	 
+	   public static void main(String[] args) 
+	   {
+	 
+	     FirefoxDriver  driver = new FirefoxDriver();
+	 
+	     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	 
+	     driver.get("http://www.store.demoqa.com");
+	 
+	     // Use page Object library now
+	 
+	     LoginPage.UserName(driver).sendKeys("sadmin");
+	     LoginPage.Password(driver).sendKeys("mm@dmin11");
+	     LoginPage.SelectRole(driver).click();
+	     LoginPage.SelectRole(driver).selectByValue("Super Admin");
+	     LoginPage.CheckboxRememberMe(driver).click();
+	     LoginPage.ButtonLogin(driver).click();
+	 
+	     System.out.println(" Login Successfully"); 
+	 
+	     driver.quit();
+	 
+	    }
+	 
+
+}
